@@ -1,0 +1,25 @@
+.columns {
+    margin: .5rem;
+}
+
+.panel {
+    margin: .5rem;
+
+    &-title {
+        font-size: 1.2rem;
+    }
+
+    &-header {
+    }
+
+    &-footer {
+        display: flex;
+        justify-content: flex-end;
+    }
+}
+
+.incoming-call-actions {
+    display: flex;
+    column-gap: .5rem;
+    justify-content: flex-end;
+}
